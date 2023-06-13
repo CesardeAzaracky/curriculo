@@ -97,7 +97,7 @@ header #navegacao{
 }
 
 #inicio h1{
-    font-size: 58pt;
+    font-size: 60pt;
     font-weight: bold;
     margin-bottom: 15px;
     margin-right: 150px;
@@ -106,6 +106,7 @@ header #navegacao{
 #inicio h3{
     font-size: 22pt;
     margin-bottom: 40px;
+
 }
 
 img{
@@ -132,27 +133,30 @@ hr{
 }
 
 #sobre, #formações, #Histórico {
-    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
 }
 
 #sobre{
-    background-color:  #b96906da;
+    background-color:  #f8550f;
 }
 
 #formações{
-    background: #9BCDD2;
+    background: #79cfd8;
 }
 
 #Histórico{
-    background-color: #f8cc97;
-}
-
-#color{
     background-color: #f8550f;
 }
 
+#color{
+    background-color: #ff8551;
+}
+
 #color2{
-    background-color: #FF8551;
+    background-color: #ff8551;
 }
 
 #view{
@@ -188,7 +192,7 @@ hr{
 }
 
 #skills div{
-    margin: 7px auto;
+    margin: 10px auto;
     width: 100%;
     text-align: center;
 }
@@ -209,7 +213,7 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 130px 100px;
+    padding: 40px;
 }
 
 @keyframes rotacao{
